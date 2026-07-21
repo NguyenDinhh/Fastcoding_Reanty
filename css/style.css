@@ -18,6 +18,10 @@ img {
   max-width: 100%;
   display: block;
 }
+.dream-living-space .dream-living-space__image-back,
+.dream-living-space .dream-living-space__image-front {
+  max-width: none;
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
