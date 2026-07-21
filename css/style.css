@@ -482,18 +482,24 @@ img {
     border-radius: 10px;
 }
 .dream-living-space .dream-living-space__image-back {
+    position: absolute;
     width: 420px;
     height: 520px;
     bottom: 0;
     left: 0;
     z-index: 1;
+    object-fit: cover;
+    border-radius: 4px;
 }
 .dream-living-space .dream-living-space__image-front {
+    position: absolute;
     width: 420px;
     height: 520px;
     top: 0;
     right: 0;
     z-index: 2;
+    object-fit: cover;
+    border-radius: 4px;
 }
 .dream-living-space .dream-living-space__badge {
     position: absolute;
@@ -593,12 +599,18 @@ img {
         height: 400px;
     }
     .dream-living-space .dream-living-space__image-back {
+        position: absolute;
         width: 200px;
         height: 250px;
+        object-fit: cover;
+        border-radius: 4px;
     }
     .dream-living-space .dream-living-space__image-front {
+        position: absolute;
         width: 200px;
         height: 250px;
+        object-fit: cover;
+        border-radius: 4px;
     }
     .dream-living-space .dream-living-space__badge {
         right: -20px;
