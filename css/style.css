@@ -473,14 +473,6 @@ img {
     height: 600px;
     margin: 0 auto;
 }
-.dream-living-space .dream-living-space__image-placeholder {
-    position: absolute;
-    background-color: #C4C4C4;
-    border-radius: 4px;
-    object-fit: cover;
-    border:1px solid gray;
-    border-radius: 10px;
-}
 .dream-living-space .dream-living-space__image-back {
     position: absolute;
     width: 420px;
