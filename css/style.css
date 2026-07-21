@@ -11,6 +11,16 @@
 }
 body {
   font-family: var(--font-main);
+  overflow-x: hidden;
+  width: 100%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+svg {
+  max-width: 100%;
+  height: auto;
 }
 .container {
   max-width: 1200px;
@@ -580,6 +590,16 @@ body {
     }
     .dream-living-space .dream-living-space__feature {
         padding: 15px;
+    }
+    .dream-living-space .dream-living-space__image-wrapper {
+        width: 100%;
+        max-width: 350px;
+        height: 350px;
+    }
+    .dream-living-space .dream-living-space__image-back,
+    .dream-living-space .dream-living-space__image-front {
+        width: 260px;
+        height: 320px;
     }
 }
 .about-home {
