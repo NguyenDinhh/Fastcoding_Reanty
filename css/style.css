@@ -1192,9 +1192,6 @@ img {
     .testimonial .testimonial__stars {
         justify-content: center;
     }
-    .testimonial .testimonial__btn {
-        display: none;
-    }
 }
 .projects {
     padding: 100px 0;
