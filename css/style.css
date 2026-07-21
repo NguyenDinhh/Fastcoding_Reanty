@@ -616,8 +616,7 @@ img {
         border-radius: 4px;
     }
     .dream-living-space .dream-living-space__badge {
-        right: 50%;
-        transform: translateX(50%);
+        right: -15px;
         top: -10px;
         padding: 12px 18px;
         font-size: 12px;
