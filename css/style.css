@@ -1181,16 +1181,51 @@ img {
     .testimonial .testimonial__title {
         font-size: 32px;
     }
+    .testimonial .testimonial__slider {
+        gap: 15px;
+    }
+    .testimonial .testimonial__btn {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+    }
     .testimonial .testimonial__content {
         flex-direction: column;
         text-align: center;
-        gap: 60px;
+        gap: 30px;
+    }
+    .testimonial .testimonial__visual {
+        width: 180px;
+        height: 180px;
     }
     .testimonial .testimonial__visual-bg {
-        left: 20px;
+        left: 15px;
+        top: 20px;
+        width: 180px;
+        height: 180px;
+    }
+    .testimonial .testimonial__image-placeholder {
+        width: 180px;
+        height: 180px;
+    }
+    .testimonial .testimonial__text {
+        font-size: 16px;
+        margin-bottom: 15px;
     }
     .testimonial .testimonial__stars {
         justify-content: center;
+        gap: 3px;
+        margin-bottom: 15px;
+    }
+    .testimonial .testimonial__stars svg {
+        width: 16px;
+        height: 16px;
+    }
+    .testimonial .testimonial__author {
+        font-size: 18px;
+    }
+    .testimonial .testimonial__role {
+        font-size: 12px;
     }
 }
 .projects {
